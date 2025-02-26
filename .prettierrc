@@ -1,0 +1,12 @@
+{
+  "plugins": ["prettier-plugin-svelte"],
+  "svelteSortOrder": "options-scripts-markup-styles",
+
+  "svelteStrictMode": true,
+
+  "svelteBracketNewLine": true,
+  "svelteIndentScriptAndStyle": true,
+  "pluginSearchDirs": ["."],
+  "printWidth": 120,
+  "singleAttributePerLine": false
+}
