@@ -1,6 +1,5 @@
 # https://taskfile.dev
-
-version: "3"
+version: '3'
 
 dotenv: [.env]
 
@@ -9,9 +8,9 @@ env:
 
 tasks:
   default:
-    deps:
-      - dev
-      - pb
+    cmds:
+      - task: dev
+      # - task: pb
 
   dev:
     cmds:
@@ -29,7 +28,7 @@ tasks:
   npm-install:
     cmds:
       - npm i
-      - touch .env
+      - cp .env.example .env
 
   pb-download:
     dir: pocketbase

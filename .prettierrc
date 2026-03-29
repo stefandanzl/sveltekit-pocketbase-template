@@ -1,12 +1,15 @@
 {
-  "plugins": ["prettier-plugin-svelte"],
-  "svelteSortOrder": "options-scripts-markup-styles",
+	"plugins": ["prettier-plugin-svelte"],
+	"svelteSortOrder": "options-scripts-markup-styles",
 
-  "svelteStrictMode": true,
+	"svelteStrictMode": true,
 
-  "svelteBracketNewLine": true,
-  "svelteIndentScriptAndStyle": true,
-  "pluginSearchDirs": ["."],
-  "printWidth": 120,
-  "singleAttributePerLine": false
+	"svelteBracketNewLine": true,
+	"svelteIndentScriptAndStyle": true,
+	"pluginSearchDirs": ["."],
+	"printWidth": 120,
+	"singleAttributePerLine": false,
+	"useTabs": true,
+	"trailingComma": "none",
+	"singleQuote": true
 }
