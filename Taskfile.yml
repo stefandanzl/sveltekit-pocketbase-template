@@ -15,15 +15,17 @@ tasks:
   dev:
     cmds:
       - npm run dev
+
+  build:
+    cmds:
+      - npm run build
+
   pb:
     dir: pocketbase
     cmd: ./pocketbase.exe serve
 
   types:
     cmd: npx pocketbase-typegen --db ./pocketbase/pb_data/data.db --out ./src/lib/pocketbase-types.ts
-    aliases:
-      - type
-      - t
 
   npm-install:
     cmds:
